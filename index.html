@@ -6342,11 +6342,14 @@ function renderSummary() {
 
   // Canonical section display order — suspension first, bumper accessories last
   const SECTION_ORDER = [
-    'Bed','Front Suspension','Rear Suspension','Cradle Center','Lift Spacers','Radius Arms',
-    'Steering Stabilizer','Air Controls','Shocks','Shocks (Included)',
-    'Front Bumper','Rear Bumper','Winch',
-    'Grille Guard','Grille Guard Lights','Bumper Lights','Accessories','Hooks',
-    'Fender Flares','Wheels & Tires','Headache Rack','Fuel','Finish','Paint','Calibration',
+    // Suspension first, then the front end, then the bed, then wheels and tires
+    'Front Suspension','Rear Suspension','Cradle Center','Lift Spacers','Radius Arms',
+    'Steering Stabilizer','Shocks','Shocks (Included)','Air Controls',
+    'Front Bumper','Grille Guard','Rear Bumper','Winch','Hooks',
+    'Grille Guard Lights','Bumper Lights',
+    'Bed','Headache Rack',
+    'Wheels & Tires','Fender Flares',
+    'Fuel','Accessories','Finish','Paint','Calibration',
   ];
   const sortedSections = Object.entries(sections).sort(([a],[b])=>{
     const ai=SECTION_ORDER.indexOf(a), bi=SECTION_ORDER.indexOf(b);
@@ -6831,11 +6834,14 @@ function buildPrintQuote() {
 
   // Section order (mirrors render())
   const SECTION_ORDER = [
-    'Bed','Front Suspension','Rear Suspension','Cradle Center','Lift Spacers','Radius Arms',
-    'Steering Stabilizer','Air Controls','Shocks','Shocks (Included)',
-    'Front Bumper','Rear Bumper','Winch',
-    'Grille Guard','Grille Guard Lights','Bumper Lights','Accessories','Hooks',
-    'Fender Flares','Wheels & Tires','Headache Rack','Fuel','Finish','Calibration',
+    // Suspension first, then the front end, then the bed, then wheels and tires
+    'Front Suspension','Rear Suspension','Cradle Center','Lift Spacers','Radius Arms',
+    'Steering Stabilizer','Shocks','Shocks (Included)','Air Controls',
+    'Front Bumper','Grille Guard','Rear Bumper','Winch','Hooks',
+    'Grille Guard Lights','Bumper Lights',
+    'Bed','Headache Rack',
+    'Wheels & Tires','Fender Flares',
+    'Fuel','Accessories','Finish','Paint','Calibration',
   ];
   const sections = {};
   for(const item of Object.values(pnMap)) {
