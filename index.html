@@ -511,8 +511,8 @@ const P = {
   'SMK-3RD':    {desc:'Smoked — Third Brake Light',                   msrp:50},
   'SMK-FENDER': {desc:'Smoked — Fender Lights',                       msrp:75},
   // ── STOMPER additions ────────────────────────────────────────
-  '80461':    {desc:'Fender Flare — EarthRoamer Style, Front Driver Side : Stomper',                          msrp:1750},
-  '80462':    {desc:'Fender Flare — EarthRoamer Style, Front Passenger Side : Stomper',                        msrp:1750},
+  '80461':    {desc:'EarthRoamer (LT-CMP33003) — Front Fender Flare, Driver Side : 2023+ Ford Super Duty',   msrp:1750},
+  '80462':    {desc:'EarthRoamer (LT-CMP33004) — Front Fender Flare, Passenger Side : 2023+ Ford Super Duty', msrp:1750},
   '10041427': {desc:'Kit — 2023+ Ford 3H/ALP4 Mount (Overhead Mount, 2-Button Purge, Air Horn)',               msrp:250},
   '10042080': {desc:'Weldment — 3H Air Controls Box Mount w/ Horns, Stomper : 2023+ Ford F450/550/600 CC',     msrp:75},
   '10041754': {desc:'Kit — 6" Lift 4-Link Rear, Stomper, 60" Cab to Axle : 2023+ Ford F450/550/600 CC',        msrp:5250},
@@ -523,13 +523,22 @@ const P = {
   '10041716': {desc:'Kit — "Stomper" Front Box Mounting Brackets : 2023+ Ford F450/550/600 CC',                msrp:40},
   '10040854': {desc:'Kit — Cab Chassis Hitch, 3" Receiver : 2023+ Ford F450/550/600 CC',                       msrp:1100},
   'KLM-402024023-002023500': {desc:'2023+ Ford F550 Front Bumper — Alpha Series, Winch Center, 3.5" End Caps (ER Flares)', msrp:2750},
-  'KLM-ALPHA-PU-FRONT':      {desc:'2023+ Ford F450 Pickup Front Bumper — Alpha Series, Winch Center, w/ Sensors  [P/N TBD]', msrp:2750},
-  'KLM-DELTA-PU-FRONT':      {desc:'2023+ Ford F450 Pickup Front Bumper — Delta Series, w/ Sensors  [P/N TBD]',  msrp:2750},
-  'KLM-DELTA-PU-REAR':       {desc:'2023+ Ford F450 Pickup Rear Bumper — Delta Series, Stock Width, w/ Sensors  [P/N TBD]', msrp:2250},
-  'KLM-COMMANDER-GG':        {desc:'2023+ Ford Super Duty Commander Grille Guard — 20" Light Cutouts  [P/N TBD]', msrp:1100},
+  'KLM-402023023-001023500': {desc:"2023+ Ford F450 Front Bumper — Alpha Series, Winch Center, Adaptive Cruise Sensor, w/Parking Sensors, 3.5\" Wide End Caps (ER Fender Flares)", msrp:2750},
+  'KLM-402023023-002023500': {desc:"2023+ Ford F450 Front Bumper — Alpha Series, Winch Center, No Parking Sensors, 3.5\" Wide End Caps (ER Fender Flares)", msrp:2750},
+  'KLM-402023023-001043500': {desc:"2023+ Ford F450 Front Bumper — Delta Series, Adaptive Cruise Sensor, w/Parking Sensors, 3.5\" Wide End Caps (ER Fender Flares)", msrp:2750},
+  'KLM-402023023-002043500': {desc:"2023+ Ford F450 Front Bumper — Delta Series, No Parking Sensors, 3.5\" Wide End Caps (ER Fender Flares)", msrp:2750},
+  'KLM-402024023-001023500': {desc:"2023+ Ford F550 Front Bumper — Alpha Series, Winch Center, Adaptive Cruise Sensor, w/Parking Sensors, 3.5\" Wide End Caps (ER Fender Flares)", msrp:2750},
+  'KLM-402024023-001043500': {desc:"2023+ Ford F550 Front Bumper — Delta Series, Adaptive Cruise Sensor, w/Parking Sensors, 3.5\" Wide End Caps (ER Fender Flares)", msrp:2750},
+  'KLM-402024023-002043500': {desc:"2023+ Ford F550 Front Bumper — Delta Series, No Parking Sensors, 3.5\" Wide End Caps (ER Fender Flares)", msrp:2750},
+  'KLM-402023023-101040000': {desc:"2023+ Ford F450 Rear Bumper — Delta Series, w/Parking Sensors, Stock Width", msrp:2250},
+  'KLM-402023023-102040000': {desc:"2023+ Ford F450 Rear Bumper — Delta Series, Stock Width", msrp:2250},
+  'KLM-402023023-108039000': {desc:"2023+ Ford F450 Cab Chassis Rear Bumper — Bravo Series, Smooth Front : Sherptek Flatbed DRW (94\" Wide)", msrp:2250},
+  'KLM-402023023-108039001': {desc:"2023+ Ford F450 Cab Chassis Rear Bumper — Bravo Series, Clevis Ears : Sherptek Flatbed DRW (94\" Wide)", msrp:2250},
+  'KLM-402023023-108040000': {desc:"2023+ Ford F450 Cab Chassis Rear Bumper — Delta Series, Stock Width : Custom 2023+ Pickup Box Conversion", msrp:2250},
+  'KLM-402024023-108039001': {desc:"2023+ Ford F550 Cab Chassis Rear Bumper — Bravo Series, Clevis Ears : Sherptek Flatbed DRW (94\" Wide)", msrp:2250},
+  'KLM-402024023-108040000': {desc:"2023+ Ford F550 Cab Chassis Rear Bumper — Delta Series, Stock Width : Custom 2023+ Pickup Box Conversion", msrp:2250},
   'RIG906213BLK': {desc:'Rigid Industries 6" SR-Series Pro Midnight Edition',                                  msrp:305},
   'SP9100-D':     {desc:'SwitchPros SP9100 8-Switch Panel Power System — No Discounts',                        msrp:659},
-  'WAR97740-S':   {desc:'Warn Winch 16.5ti Thermometric 16,500 lb w/ Hawse Fairlead, Synthetic Rope',          msrp:3350},
   'TITAN-7020317':{desc:'Titan Gen 7 XXL Mid-Ship Fuel Tank, 65 Gal — Crew Cab Long Bed Pickup',               msrp:1459},
   'TITAN-7020517':{desc:'Titan 54 Gallon XXL Mid-Ship Fuel Tank — F350/450/550 Cab & Chassis',                 msrp:1599.20},
   '10015220': {desc:'Kit — HornBlasters Shocker XL Train Horn Kit & 3/8" Fitting',                             msrp:460},
@@ -944,34 +953,34 @@ const P = {
 
   // ── Commander Grille Guards — 2023+ Ford F-250/350/450/550/600 ───
   // Round tube configurations
-  'KLM-202021023-00101000000': {desc:'Commander Grille Guard — Round × 2 Crossbars, Smooth Face',           msrp:1000},
-  'KLM-202021023-00101000001': {desc:'Commander Grille Guard — Round × 2 Crossbars, w/ Clevis Ears',        msrp:1000},
-  'KLM-202021023-00101010000': {desc:'Commander Grille Guard — Round × 3 Crossbars, Smooth Face',           msrp:1050},
-  'KLM-202021023-00101010001': {desc:'Commander Grille Guard — Round × 3 Crossbars, w/ Clevis Ears',        msrp:1050},
+  'KLM-202021023-00101000000': {desc:'Commander Grille Guard — Round × 2 Crossbars, Smooth Face',           msrp:1100},
+  'KLM-202021023-00101000001': {desc:'Commander Grille Guard — Round × 2 Crossbars, w/ Clevis Ears',        msrp:1100},
+  'KLM-202021023-00101010000': {desc:'Commander Grille Guard — Round × 3 Crossbars, Smooth Face',           msrp:1100},
+  'KLM-202021023-00101010001': {desc:'Commander Grille Guard — Round × 3 Crossbars, w/ Clevis Ears',        msrp:1100},
   'KLM-202021023-00101010100': {desc:'Commander Grille Guard — Round × 4 Crossbars, Smooth Face',           msrp:1100},
   'KLM-202021023-00101010101': {desc:'Commander Grille Guard — Round × 4 Crossbars, w/ Clevis Ears',        msrp:1100},
   // Square tube — solid crossbars
   'KLM-202021023-01111000000': {desc:'Commander Grille Guard — Square × 2 Crossbars, Smooth Face',          msrp:1100},
-  'KLM-202021023-01111000001': {desc:'Commander Grille Guard — Square × 2 Crossbars, w/ Clevis Ears',       msrp:1050},
-  'KLM-202021023-01111110000': {desc:'Commander Grille Guard — Square × 3 Crossbars, Smooth Face',          msrp:1000},
-  'KLM-202021023-01111110001': {desc:'Commander Grille Guard — Square × 3 Crossbars, w/ Clevis Ears',       msrp:1000},
+  'KLM-202021023-01111000001': {desc:'Commander Grille Guard — Square × 2 Crossbars, w/ Clevis Ears',       msrp:1100},
+  'KLM-202021023-01111110000': {desc:'Commander Grille Guard — Square × 3 Crossbars, Smooth Face',          msrp:1100},
+  'KLM-202021023-01111110001': {desc:'Commander Grille Guard — Square × 3 Crossbars, w/ Clevis Ears',       msrp:1100},
   // Square tube — mixed light + solid crossbars
-  'KLM-202021023-01111210000': {desc:'Commander Grille Guard — Sq. Light × 1, Sq. × 2, Smooth Face',        msrp:1000},
-  'KLM-202021023-01111210001': {desc:'Commander Grille Guard — Sq. Light × 1, Sq. × 2, w/ Clevis Ears',     msrp:1000},
-  'KLM-202021023-02111000000': {desc:'Commander Grille Guard — Sq. Light × 1, Sq. × 1, Smooth Face',        msrp:1000},
-  'KLM-202021023-02111000001': {desc:'Commander Grille Guard — Sq. Light × 1, Sq. × 1, w/ Clevis Ears',     msrp:1000},
+  'KLM-202021023-01111210000': {desc:'Commander Grille Guard — Sq. Light × 1, Sq. × 2, Smooth Face',        msrp:1100},
+  'KLM-202021023-01111210001': {desc:'Commander Grille Guard — Sq. Light × 1, Sq. × 2, w/ Clevis Ears',     msrp:1100},
+  'KLM-202021023-02111000000': {desc:'Commander Grille Guard — Sq. Light × 1, Sq. × 1, Smooth Face',        msrp:1100},
+  'KLM-202021023-02111000001': {desc:'Commander Grille Guard — Sq. Light × 1, Sq. × 1, w/ Clevis Ears',     msrp:1100},
   'KLM-202021023-02121000000': {desc:'Commander Grille Guard — Sq. Light × 2 Crossbars, Smooth Face',       msrp:1100},
   'KLM-202021023-02121000001': {desc:'Commander Grille Guard — Sq. Light × 2 Crossbars, w/ Clevis Ears',    msrp:1100},
-  'KLM-202021023-02121110000': {desc:'Commander Grille Guard — Sq. Light × 2, Sq. × 1, Smooth Face',        msrp:1000},
-  'KLM-202021023-02121110001': {desc:'Commander Grille Guard — Sq. Light × 2, Sq. × 1, w/ Clevis Ears',     msrp:1000},
-  'KLM-202021023-02121210000': {desc:'Commander Grille Guard — Sq. Light × 3 Crossbars, Smooth Face',       msrp:1000},
-  'KLM-202021023-02121210001': {desc:'Commander Grille Guard — Sq. Light × 3 Crossbars, w/ Clevis Ears',    msrp:1000},
+  'KLM-202021023-02121110000': {desc:'Commander Grille Guard — Sq. Light × 2, Sq. × 1, Smooth Face',        msrp:1100},
+  'KLM-202021023-02121110001': {desc:'Commander Grille Guard — Sq. Light × 2, Sq. × 1, w/ Clevis Ears',     msrp:1100},
+  'KLM-202021023-02121210000': {desc:'Commander Grille Guard — Sq. Light × 3 Crossbars, Smooth Face',       msrp:1100},
+  'KLM-202021023-02121210001': {desc:'Commander Grille Guard — Sq. Light × 3 Crossbars, w/ Clevis Ears',    msrp:1100},
   // Headlight Guard configurations (all w/ Clevis Ears, $1,400)
   'KLM-202021023-11103030001': {desc:'Commander Grille Guard + Headlight Guards — Sq. Center (No Light), Round × 2 Outer, w/ Clevis Ears',               msrp:1400},
   'KLM-202021023-11903030001': {desc:'Commander Grille Guard + Headlight Guards — Sq. 30" 360-Connect Center, Round × 2 Outer, w/ Clevis Ears',          msrp:1400},
   'KLM-202021023-12103030001': {desc:'Commander Grille Guard + Headlight Guards — Sq. 20" SR Light Center, Round × 2 Outer, w/ Clevis Ears',             msrp:1400},
   // Headlight Guard Conversion Kit (retrofit)
-  'KLM-202021023-10000000000': {desc:'Commander Grille Guard — Headlight Guard Conversion Kit',                                                           msrp:300},
+  'KLM-202021023-10000000000': {desc:'Commander Grille Guard — Headlight Guard Conversion Kit',                                                           msrp:1100},
 
   // ── 2023+ Ford Super Duty Front Bumpers — programmatically populated below ──
   // ── 2023+ Ford Super Duty Rear Bumpers — programmatically populated below ──
@@ -5307,7 +5316,9 @@ const AIR_CHOICES = (consolePn) => ([
    sub:'Dual compressor, dual tank, dryer and dump valves with Haldex height control valves. Mechanical leveling, no electronic presets or console mount.'},
 ]);
 const AIRPARTS = (sel, isCC) => {
-  const p = [], consolePn = isCC ? '10041427' : '10015203';
+  // 10041427 carries the air-horn button, so it is the mount whenever a train
+  // horn is on the build; the pickup otherwise uses the plain 10015203.
+  const p = [], consolePn = (isCC || sel.horn==='yes') ? '10041427' : '10015203';
   if(sel.air==='3h'||sel.air==='3h-console')     p.push({section:'Air Controls', pn:'ESLK3H2',  qty:1});
   if(sel.air==='alp4'||sel.air==='alp4-console') p.push({section:'Air Controls', pn:'10040870', qty:1});
   if(sel.air==='mech'){
@@ -5340,11 +5351,19 @@ const LIGHT4PARTS = (val, qty, section) => {
 };
 const LIGHTING_STEPS = (hasRack) => ([
   {key:'ggLight', label:'Grille Guard — Light Bar', badge:'opt',
-   hint:'The Commander grille guard is cut for a 30" 360-Connect bar.',
-   choices:()=>[
-     {val:'none', label:'No Light Bar — Cutout Included'},
-     {val:'b30',  label:'30" Rigid 360-Connect Light Bar', sub:'RIG36306'},
-   ]},
+   hint:'The bar has to match the cutout in the guard you chose.',
+   choices:(kit,sel)=>{
+     if(sel.guard==='hg30') return [
+       {val:'none', label:'No Light Bar — Cutout Included'},
+       {val:'b30',  label:'30" Rigid 360-Connect Light Bar', sub:'RIG36306'}];
+     if(sel.guard==='hg20') return [
+       {val:'none', label:'No Light Bar — Cutout Included'},
+       {val:'sr20', label:'20" Rigid SR-Series Pro', sub:'RIG920314'}];
+     if(sel.guard==='g21s'||sel.guard==='g21c') return [
+       {val:'none', label:'No Lights — Cutouts Included'},
+       {val:'sq2',  label:'(2) 4" Rigid E-Series Midnight Spot', sub:'RIG104213BLK × 2'}];
+     return [{val:'none', label:'No Cutout on This Guard'}];
+   }},
   {key:'fbLight', label:'Front Bumper — Lights', badge:'opt',
    hint:'Four lights in the front bumper.',
    choices:()=>LIGHT4(4)},
@@ -5374,7 +5393,9 @@ const LIGHTING_STEPS = (hasRack) => ([
 ]);
 const LIGHTPARTS = (sel) => {
   const p = [];
-  if(sel.ggLight==='b30') p.push({section:'Grille Guard Lights', pn:'RIG36306', qty:1});
+  if(sel.ggLight==='b30')  p.push({section:'Grille Guard Lights', pn:'RIG36306', qty:1});
+  if(sel.ggLight==='sr20') p.push({section:'Grille Guard Lights', pn:'RIG920314', qty:1});
+  if(sel.ggLight==='sq2')  p.push({section:'Grille Guard Lights', pn:'RIG104213BLK', qty:2});
   LIGHT4PARTS(sel.fbLight, 4, 'Bumper Lights').forEach(x=>p.push(x));
   if(sel.rkFront==='b40') p.push({section:'Headache Rack', pn:'RIG36308', qty:1});
   if(sel.rkRear==='sr6')  p.push({section:'Headache Rack', pn:'RIG906213BLK', qty:2});
@@ -5395,6 +5416,12 @@ const HOOK_CHOICES = [
   {val:'sw1r',    label:'Monster Hooks Swivel Hook — Candy Red',          sub:'MH-SW1R × 2'},
   {val:'sw1c',    label:'Monster Hooks Swivel Hook — Chrome Plated',      sub:'MH-SW1C × 2'},
 ];
+const GUARD_PN = {
+  g11s:'KLM-202021023-01111000000', g11c:'KLM-202021023-01111000001',
+  g21s:'KLM-202021023-02121000000', g21c:'KLM-202021023-02121000001',
+  hg11:'KLM-202021023-11103030001', hg30:'KLM-202021023-11903030001',
+  hg20:'KLM-202021023-12103030001',
+};
 const HOOK_MAP = {rs78xlb:'MH-RS78XLB', sw1b:'MH-SW1B', sw1s:'MH-SW1S',
                   sw1a:'MH-SW1A', sw1r:'MH-SW1R', sw1c:'MH-SW1C'};
 const HOOKSET = (val) => {
@@ -5496,7 +5523,7 @@ const EXTRAS = (sel, titanPn) => {
   const p = [];
   LIGHTPARTS(sel).forEach(x=>p.push(x));
   if(sel.switchpros==='yes') p.push({section:'Accessories', pn:'SP9100-D', qty:1});
-  if(sel.winch==='warn')     p.push({section:'Winch', pn:'WAR97740-S', qty:1});
+  if(sel.winch==='warn')     p.push({section:'Winch', pn:'WAR97740', qty:1});
   if(sel.spare==='yes')      p.push({section:'Accessories', pn:'10040942', qty:1});
   if(sel.fuel==='titan')     p.push({section:'Fuel', pn:titanPn, qty:1});
   HOOKPARTS(sel).forEach(x=>p.push(x));
@@ -5543,14 +5570,30 @@ const CATALOG = [
          o.push({val:'t335',label:'335/80R20 Continental MPT81',sub:'Fits any ride height'});
          return o;
        }},
+      {key:'sensors', label:'Factory Parking Sensors', badge:'req',
+       hint:'Bumpers are built to match the truck. Adaptive cruise and parking sensors need the sensor-cut version.',
+       choices:()=>[
+         {val:'yes', label:'Equipped — Adaptive Cruise and Parking Sensors', sub:'Sensor-cut bumpers'},
+         {val:'no',  label:'Not Equipped', sub:'Solid bumpers, no sensor cutouts'},
+       ]},
       {key:'front', label:'Front Bumper', badge:'opt',
-       hint:'Aftermarket bumpers may disable parking sensors and adaptive cruise.',
+       hint:'All Stomper bumpers are the 3.5" wide end cap version, cut for the EarthRoamer fender flares.',
        choices:()=>[
          {val:'none',     label:'Factory Bumper'},
-         {val:'alpha',    label:'Alpha Series Front Bumper',  sub:'Winch center, with sensors'},
-         {val:'delta',    label:'Delta Series Front Bumper',  sub:'Smooth face, with sensors'},
-         {val:'alphacg',  label:'Alpha Bumper + Commander Grille Guard', sub:'20" light cutouts'},
-         {val:'alphahg',  label:'Alpha Bumper + Commander Guard + Headlight Guards', sub:'30" 360-Connect cutout'},
+         {val:'alpha',    label:'Alpha Series Front Bumper',  sub:'Winch center'},
+         {val:'delta',    label:'Delta Series Front Bumper',  sub:'Smooth face'},
+       ]},
+      {key:'guard', label:'Commander Grille Guard', badge:'opt',
+       hint:'Bolts to the Alpha front bumper. The light cutout in the guard decides which bar fits.',
+       choices:(kit,sel)=> (sel.front!=='alpha') ? [{val:'none', label:'Requires the Alpha front bumper'}] : [
+         {val:'none',   label:'No Grille Guard'},
+         {val:'g11s',   label:'Commander Guard — Sq. (x2), Smooth',              sub:'No light cutout'},
+         {val:'g11c',   label:'Commander Guard — Sq. (x2), Clevis Ears',         sub:'No light cutout'},
+         {val:'g21s',   label:'Commander Guard — Sq. Light (x2), Smooth',        sub:'Two square light cutouts'},
+         {val:'g21c',   label:'Commander Guard — Sq. Light (x2), Clevis Ears',   sub:'Two square light cutouts'},
+         {val:'hg11',   label:'Commander Guard + Headlight Guards — Round (x2), Clevis Ears', sub:'No centre light cutout'},
+         {val:'hg30',   label:'Commander Guard + Headlight Guards — 30" 360-Connect, Round (x2), Clevis Ears'},
+         {val:'hg20',   label:'Commander Guard + Headlight Guards — 20" SR Light, Round (x2), Clevis Ears'},
        ]},
       {key:'rear', label:'Rear Bumper', badge:'opt',
        choices:()=>[
@@ -5583,11 +5626,15 @@ const CATALOG = [
       STEERPARTS(sel,'SK758').forEach(x=>p.push(x));
       AIRPARTS(sel,false).forEach(x=>p.push(x));
       if(sel.tires) WHEELS(sel).forEach(x=>p.push(x));
-      if(sel.front==='alpha'||sel.front==='alphacg'||sel.front==='alphahg') p.push({section:'Front Bumper',pn:'KLM-ALPHA-PU-FRONT',qty:1});
-      if(sel.front==='delta')   p.push({section:'Front Bumper',pn:'KLM-DELTA-PU-FRONT',qty:1});
-      if(sel.front==='alphacg') p.push({section:'Grille Guard',pn:'KLM-COMMANDER-GG',qty:1});
-      if(sel.front==='alphahg') p.push({section:'Grille Guard',pn:'KLM-202021023-11903030001',qty:1});
-      if(sel.rear==='rdelta'){ p.push({section:'Rear Bumper',pn:'KLM-DELTA-PU-REAR',qty:1}); p.push({section:'Rear Bumper',pn:'31910',qty:1}); }
+      const sCode = sel.sensors==='no' ? '002' : '001';
+      if(sel.front==='alpha') p.push({section:'Front Bumper',pn:`KLM-402023023-${sCode}023500`,qty:1});
+      if(sel.front==='delta')
+        p.push({section:'Front Bumper',pn:`KLM-402023023-${sCode}043500`,qty:1});
+      if(sel.front==='alpha' && GUARD_PN[sel.guard]) p.push({section:'Grille Guard',pn:GUARD_PN[sel.guard],qty:1});
+      if(sel.rear==='rdelta'){
+        p.push({section:'Rear Bumper',pn: sel.sensors==='no' ? 'KLM-402023023-102040000' : 'KLM-402023023-101040000', qty:1});
+        p.push({section:'Rear Bumper',pn:'31910',qty:1});
+      }
       if(sel.rack==='r8') p.push({section:'Headache Rack',pn:'KLM-802021023-083600',qty:1});
       EXTRAS(sel,'TITAN-7020317').forEach(x=>p.push(x));
       LABOR(sel,false).forEach(x=>p.push(x));
@@ -5605,6 +5652,12 @@ const CATALOG = [
     label:'F-450 / F-550 Chassis Cab',
     kits:[{id:'stomper-cc-kit', label:'Stomper Conversion', sub:'Bed conversion or SherpTek flatbed'}],
     steps:[
+      {key:'chassis', label:'Chassis', badge:'req',
+       hint:'Bumper part numbers differ between the F-450 and F-550 chassis cab.',
+       choices:()=>[
+         {val:'f450', label:'F-450 Chassis Cab'},
+         {val:'f550', label:'F-550 Chassis Cab'},
+       ]},
       {key:'bed', label:'Bed', badge:'req',
        hint:'A chassis cab has no bed. The painted conversion includes paint and installation labor.',
        choices:()=>[
@@ -5613,12 +5666,21 @@ const CATALOG = [
        ]},
       {key:'suspension', label:'Suspension', badge:'req',
        hint:'Front and rear kits are paired. Lift kits include Kelderman adjustable radius arms.',
-       choices:()=>[
-         {val:'stock', label:'Stock Height Front and Rear', sub:'Air suspension at factory ride height'},
-         {val:'3',     label:'3" Front and Rear',           sub:'Chassis cab specific front and rear kits'},
-         {val:'6std',  label:'6" Overlander — 84" / 108" / 120" Cab to Axle', sub:'Full Stomper stance'},
-         {val:'660',   label:'6" Overlander — 60" Cab to Axle',               sub:'Full Stomper stance'},
-       ]},
+       choices:(kit,sel)=>{
+         const o = [
+           {val:'stock', label:'Stock Height Front and Rear', sub:'Air suspension at factory ride height'},
+           {val:'3',     label:'3" Front and Rear',           sub:'Chassis cab specific front and rear kits'},
+         ];
+         // The painted pickup box conversion is only built on 60" cab-to-axle
+         // trucks, so there is nothing to ask about on that bed.
+         if(sel.bed==='conv'){
+           o.push({val:'660', label:'6" Overlander', sub:'Full Stomper stance — 60" cab to axle'});
+         } else {
+           o.push({val:'6std', label:'6" Overlander — 84" / 108" / 120" Cab to Axle', sub:'Full Stomper stance'});
+           o.push({val:'660',  label:'6" Overlander — 60" Cab to Axle',               sub:'Full Stomper stance'});
+         }
+         return o;
+       }},
       {key:'steering', label:'Steering', badge:'req',
        hint:'Both options are available at every ride height. PSC hydraulic assist is recommended.',
        choices:()=>[
@@ -5635,20 +5697,38 @@ const CATALOG = [
          o.push({val:'t335',label:'335/80R20 Continental MPT81',sub:'Fits any ride height'});
          return o;
        }},
+      {key:'sensors', label:'Factory Parking Sensors', badge:'req',
+       hint:'Bumpers are built to match the truck. Adaptive cruise and parking sensors need the sensor-cut version.',
+       choices:()=>[
+         {val:'yes', label:'Equipped — Adaptive Cruise and Parking Sensors', sub:'Sensor-cut bumpers'},
+         {val:'no',  label:'Not Equipped', sub:'Solid bumpers, no sensor cutouts'},
+       ]},
       {key:'front', label:'Front Bumper', badge:'opt',
-       hint:'Aftermarket bumpers may disable parking sensors and adaptive cruise.',
+       hint:'All Stomper bumpers are the 3.5" wide end cap version, cut for the EarthRoamer fender flares.',
        choices:()=>[
          {val:'none',    label:'Factory Bumper'},
-         {val:'alpha',   label:'F-550 Alpha Series Front Bumper', sub:'Winch center, 3.5" end caps for the flares'},
-         {val:'alphacg', label:'Alpha Bumper + Commander Grille Guard', sub:'20" light cutouts'},
-         {val:'alphahg', label:'Alpha Bumper + Commander Guard + Headlight Guards', sub:'30" 360-Connect cutout'},
+         {val:'alpha',   label:'Alpha Series Front Bumper', sub:'Winch center'},
+         {val:'delta',   label:'Delta Series Front Bumper', sub:'Smooth face'},
+       ]},
+      {key:'guard', label:'Commander Grille Guard', badge:'opt',
+       hint:'Bolts to the Alpha front bumper. The light cutout in the guard decides which bar fits.',
+       choices:(kit,sel)=> (sel.front!=='alpha') ? [{val:'none', label:'Requires the Alpha front bumper'}] : [
+         {val:'none',   label:'No Grille Guard'},
+         {val:'g11s',   label:'Commander Guard — Sq. (x2), Smooth',              sub:'No light cutout'},
+         {val:'g11c',   label:'Commander Guard — Sq. (x2), Clevis Ears',         sub:'No light cutout'},
+         {val:'g21s',   label:'Commander Guard — Sq. Light (x2), Smooth',        sub:'Two square light cutouts'},
+         {val:'g21c',   label:'Commander Guard — Sq. Light (x2), Clevis Ears',   sub:'Two square light cutouts'},
+         {val:'hg11',   label:'Commander Guard + Headlight Guards — Round (x2), Clevis Ears', sub:'No centre light cutout'},
+         {val:'hg30',   label:'Commander Guard + Headlight Guards — 30" 360-Connect, Round (x2), Clevis Ears'},
+         {val:'hg20',   label:'Commander Guard + Headlight Guards — 20" SR Light, Round (x2), Clevis Ears'},
        ]},
       {key:'rear', label:'Rear Bumper', badge:'opt',
        hint:'The rear bumper follows the bed. A SherpTek flatbed takes the custom Bravo; the painted pickup box conversion takes the Delta.',
        choices:(kit,sel)=>{
          if(sel.bed==='sherptek') return [
-           {val:'none',   label:'No Rear Bumper'},
-           {val:'rbravo', label:'Custom Bravo Rear Bumper', sub:'Smooth face — built for the SherpTek flatbed'},
+           {val:'none',        label:'No Rear Bumper'},
+           {val:'rbravo',      label:'Bravo Rear Bumper — Smooth Front', sub:'Built for the SherpTek flatbed, 94" DRW'},
+           {val:'rbravoclevis',label:'Bravo Rear Bumper — Clevis Ears',  sub:'Built for the SherpTek flatbed, 94" DRW'},
          ];
          if(sel.bed==='conv') return [
            {val:'none',   label:'No Rear Bumper'},
@@ -5691,15 +5771,22 @@ const CATALOG = [
       STEERPARTS(sel,'SK756').forEach(x=>p.push(x));
       AIRPARTS(sel,true).forEach(x=>p.push(x));
       if(sel.tires) WHEELS(sel).forEach(x=>p.push(x));
-      if(sel.front==='alpha'||sel.front==='alphacg'||sel.front==='alphahg') p.push({section:'Front Bumper',pn:'KLM-402024023-002023500',qty:1});
-      if(sel.front==='alphacg') p.push({section:'Grille Guard',pn:'KLM-COMMANDER-GG',qty:1});
-      if(sel.front==='alphahg') p.push({section:'Grille Guard',pn:'KLM-202021023-11903030001',qty:1});
+      const ccBase = sel.chassis==='f450' ? '402023023' : '402024023';
+      const ccS = sel.sensors==='no' ? '002' : '001';
+      if(sel.front==='alpha') p.push({section:'Front Bumper',pn:`KLM-${ccBase}-${ccS}023500`,qty:1});
+      if(sel.front==='delta')
+        p.push({section:'Front Bumper',pn:`KLM-${ccBase}-${ccS}043500`,qty:1});
+      if(sel.front==='alpha' && GUARD_PN[sel.guard]) p.push({section:'Grille Guard',pn:GUARD_PN[sel.guard],qty:1});
+      if(sel.rear==='rbravoclevis' && sel.bed==='sherptek'){
+        p.push({section:'Rear Bumper',pn:`KLM-${ccBase}-108039001`,qty:1});
+        p.push({section:'Rear Bumper',pn:'31910',qty:1});
+      }
       if(sel.rear==='rbravo' && sel.bed==='sherptek'){
-        p.push({section:'Rear Bumper',pn:'KLM-402024023-108039000',qty:1});
+        p.push({section:'Rear Bumper',pn:`KLM-${ccBase}-108039000`,qty:1});
         p.push({section:'Rear Bumper',pn:'31910',qty:1});
       }
       if(sel.rear==='rdelta' && sel.bed==='conv'){
-        p.push({section:'Rear Bumper',pn:'KLM-DELTA-PU-REAR',qty:1});
+        p.push({section:'Rear Bumper',pn:`KLM-${ccBase}-108040000`,qty:1});
         p.push({section:'Rear Bumper',pn:'31910',qty:1});
       }
       EXTRAS(sel,'TITAN-7020517').forEach(x=>p.push(x));
@@ -5901,6 +5988,9 @@ function selectStep(key, val) {
 const TALL_LIFTS = ['5-6','6std','660'];
 const MIRRORS = {fbLight:'rbLight', fbHooks:'rbHooks'};
 function applyDefaults(changedKey) {
+  if(changedKey === 'bed' && S.sel.bed === 'conv' && S.sel.suspension === '6std') {
+    S.sel.suspension = '660';   // the conversion is a 60" cab-to-axle build only
+  }
   if(changedKey === 'suspension') {
     if(TALL_LIFTS.includes(S.sel.suspension)) S.sel.tires = 't365';
     else if(S.sel.tires === 't365')           S.sel.tires = 't335';
